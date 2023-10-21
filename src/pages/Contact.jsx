@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar/Navbar.jsx";
 import { useNavigate } from "react-router";
-
+import Footer from '../components/Footer';
 const Contact = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({ fname: "", lname: "", age: "" });
@@ -42,6 +42,7 @@ const Contact = () => {
         <button onClick={handleSubmit}>Submit</button>
       </form>
     </div>
+    <Footer name={"Soham Hajare"} number={7387667888} />
     </div>
   );
 };

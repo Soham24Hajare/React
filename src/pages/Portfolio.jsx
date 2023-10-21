@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar.jsx";
-
+import Footer from '../components/Footer';
 
 const Portfolio = () => {
   return (
@@ -30,6 +30,7 @@ const Portfolio = () => {
         <a href="#">View Project</a>
       </div>
     </div>
+    <Footer name={"Soham Hajare"} number={7387667888} />
     </div>
   );
 };

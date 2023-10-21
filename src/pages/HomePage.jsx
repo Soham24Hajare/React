@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar/Navbar.jsx";
 import Section from "../components/Section/Section.jsx";
 import ProfileInfo from "../components/ProfileInfo/ProfileInfo";
+import Footer from '../components/Footer';
 const Home = () => {
   return (
     <>
@@ -27,6 +28,7 @@ const Home = () => {
           link={"https://facebook.com/"}
         />
       </div>
+      <Footer name={"Soham Hajare"} number={7387667888} />
     </>
   );
 };
